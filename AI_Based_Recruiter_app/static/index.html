@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recruitment</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            background-image: url('../static/bg-img.jpg ');
+            background-attachment: fixed;
+            background-position: center;
+            position: relative; 
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #1f5351; 
+            color: #fff;
+        }
+        h1{
+            font-size: 35px;
+            color: #ffffff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h3{
+            font-size: 30px;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p{
+            color: #fff;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .logo img {
+            max-width: 250px; /* Adjust the logo size as needed */
+            
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #000000; 
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero {
+            
+            background-size: cover;
+            color: #fff;
+            padding: 100px 0;
+        }
+        .hero {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .hero h1 {
+            font-size: 36px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1f5351;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.1);
+        }
+
+
+        .logo img {
+            max-width: 250px; /* Adjust the logo size as needed */
+            
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #000000;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .get-started {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1{
+            font-size: 35px;
+            color: #407876;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .navigation-elements {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .nav-element {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            transition: transform 0.2s ease;
+            width: 500px; /* Adjust the width as needed */
+            margin:10px; /* Adjust the margin as needed */
+            border-radius: 10px;
+            border: 2px solid #1f5351;
+        }
+
+        .nav-element h2{
+            color: #1f5351;
+        }
+
+        .nav-element:hover {
+            transform: scale(1.05);
+        }
+        .nav-element img {
+            width: 150px; /* Adjust the width as needed */
+            height: 150px; /* Adjust the height as needed */
+            object-fit: cover;
+            }
+
+
+        .nav-element p {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../static/logo.jpg" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../static/index.html">Home</a></li>
+                <li><a href="../static/about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="/">Job Matching</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to XHIRE</h1>
+            <h3>REVOLUTIONIZE YOUR HIRING PROCESS</h3>
+            <p>Find the perfect candidate with our AI-powered recruitment platform.</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </section>
+
+        <section class="get-started" id="services">
+            <h1>Get Started</h1>
+            <div class="navigation-elements">
+                <div class="nav-element">
+                        <img src="../static/resume-parsing.jpg" alt="Navigation Element 1">
+                        <h2>Resume Parsing</h2>
+                        <p style="color: black;">Resume Parsing is a crucial feature that involves the automatic extraction and organization of data from job applicants' resumes. The AI algorithms scan resumes, identify and categorize information such as contact details, skills, work experience, education, and more. It then converts this data into a structured format, making it easier for recruiters to search and filter candidates based on specific criteria. This saves recruiters valuable time and ensures that no relevant information is missed during the initial screening process.</p>
+                </div>
+                <div class="nav-element">
+                        <img src="../static/job-matching.jpg" alt="Navigation Element 2">
+                        <h2>Job Matching</h2>
+                        <p style="color: black;">Job Matching is another essential component of our App. It uses advanced algorithms to compare the requirements of a job listing with the attributes and qualifications of candidates. The AI analyzes job descriptions and candidate profiles, assigning relevance scores to candidates based on how well they match the job criteria. Job Matching ensures that the most suitable candidates are shortlisted for a particular job, helping recruiters make data-driven decisions and significantly improving the efficiency of the hiring process.</p>
+                </div>
+                <div class="nav-element">
+                        <img src="../static/sentiment-analysis.jpg" alt="Navigation Element 3">
+                        <h2>Sentiment Analysis</h2>
+                        <p style="color: black;">Sentiment Analysis is a valuable tool that adds a layer of insight to the recruitment process. It uses natural language processing and machine learning to analyze the sentiment and emotions expressed in resumes, cover letters, or other communication between candidates and employers. This technology can help recruiters gauge a candidate's enthusiasm, confidence, and overall attitude. It can be particularly useful during interviews or when assessing a candidate's fit within the company culture. Sentiment Analysis ensures a holistic view of the candidate beyond their qualifications and experience.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
